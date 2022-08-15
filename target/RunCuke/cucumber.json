@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19505986900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify that user can see the logo present on home page",
+        "description": "",
+        "id": "proagrica:-home-page-test-cases;verify-that-user-can-see-the-logo-present-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2438449700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 555566700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the home page",
+            "match": {
+              "location": "HomePageStepdefs.iLaunchTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5618375800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "HomePageStepdefs.iAcceptAllCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2424337300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see proagrica logo",
+            "match": {
+              "location": "HomePageStepdefs.iShouldBeAbleToSeeProagricaLogo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8944116200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify that homepage main text message is correct",
+        "description": "",
+        "id": "proagrica:-home-page-test-cases;verify-that-homepage-main-text-message-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 3013063200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I launch the home page",
+            "match": {
+              "location": "HomePageStepdefs.iLaunchTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5413471000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "HomePageStepdefs.iAcceptAllCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1228226800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to see the message text display correctly",
+            "match": {
+              "location": "HomePageStepdefs.iShouldBeAbleToSeeTheMessageTextDisplayCorrectly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11568131100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify count and print the number of link present on home page",
+        "description": "",
+        "id": "proagrica:-home-page-test-cases;verify-count-and-print-the-number-of-link-present-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1652235800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I launch the home page",
+            "match": {
+              "location": "HomePageStepdefs.iLaunchTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5997203800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "HomePageStepdefs.iAcceptAllCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833619800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to verify number of links present",
+            "match": {
+              "location": "HomePageStepdefs.iShouldBeAbleToVerifyNumberOfLinksPresent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9911084500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be able to print out all the links",
+            "match": {
+              "location": "HomePageStepdefs.iShouldBeAbleToPrintOutAllTheLinks()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Proagrica: Home page Test Cases",
+    "description": "As user I want to check the Proagrica web page",
+    "id": "proagrica:-home-page-test-cases",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/homepage.feature"
+  }
+]
